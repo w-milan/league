@@ -1,0 +1,16 @@
+/* Discord Navigation */
+.icon-discord{
+    padding-left: 5px;
+}
+.icon-coins{
+    padding-right: 5px;
+}
+.discord-navigation{
+    font-size: 14px;
+}
+.navigation-padding{
+    padding: 16px;
+}
+.navigation-under-discord{
+    font-weight: bold;
+}
