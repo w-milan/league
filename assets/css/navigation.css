@@ -12,6 +12,7 @@ a:visited{
 }
 .discord-navigation{
     font-size: 14px;
+    border-bottom: 1px solid #8080803b;
 }
 .navigation-padding{
     padding: 16px;
@@ -29,6 +30,6 @@ a:visited{
 .navbar-discord:hover{
     color: rgb(228, 228, 228);
 }
-.discord-nav-padding{
+/* .discord-nav-padding{
     padding-left: 0;
-}
+} */
