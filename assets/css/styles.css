@@ -1,1 +1,29 @@
-@import url('navigation.css');
+@import url("navigation.css");
+
+@font-face {
+  font-family: "frizquadratabold";
+  src: url("../webfonts/friz_quadrata_bold-webfont.woff2") format("woff2"),
+    url("../webfonts/friz_quadrata_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "friz_quadrataregular_italic";
+  src: url("../webfonts/friz_quadrata_italic-webfont.woff2") format("woff2"),
+    url("../webfonts/friz_quadrata_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "friz_quadrataregular";
+  src: url("../webfonts/friz_quadrata_regular-webfont.woff2") format("woff2"),
+    url("../webfonts/friz_quadrata_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "friz_quadrataregular", Arial, Helvetica, sans-serif;
+}
