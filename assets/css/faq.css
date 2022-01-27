@@ -6,11 +6,12 @@ section {
 
 .section-bg:before {
   content: "";
-  background: #151515;
+  background: #fff;
   position: absolute;
   bottom: 70px;
-  top: 45px;
+  top: 50px;
   left: 0;
   right: 0;
-  transform: skewY(-3deg);
+  transform: skewY(-2deg);
+  z-index: -1;
 }
