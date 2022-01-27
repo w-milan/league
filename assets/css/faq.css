@@ -1,0 +1,16 @@
+/* FAQ section */
+section {
+  overflow: hidden;
+  position: relative;
+}
+
+.section-bg:before {
+  content: "";
+  background: #151515;
+  position: absolute;
+  bottom: 70px;
+  top: 45px;
+  left: 0;
+  right: 0;
+  transform: skewY(-3deg);
+}
