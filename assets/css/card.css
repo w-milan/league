@@ -2,10 +2,6 @@
     background-color: inherit;
     border: inherit;
 }
-.card-title,
-.card-text{
-    color: white;
-}
 .card-title{
     font-size: 30px;
     font-weight: bold;
