@@ -1,29 +1,29 @@
-.card-transparent{
-    background-color: inherit;
-    border: inherit;
+.card-transparent {
+  background-color: inherit;
+  border: inherit;
 }
-.card-title{
-    font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 2px;
+.card-title {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
-.list-group-products li{
-    margin: 3px;
-    border: 5px solid #ffba00 !important;
+.list-group-products li {
+  margin: 3px;
+  border: 5px solid #ffba00 !important;
 }
-.in-list-text{
-    justify-content: space-between;
+.in-list-text {
+  justify-content: space-between;
 }
 .price-tag {
-    margin: auto 0;
-    font-size: 30px;
-    text-align: right;
-    margin-right: 10px;
+  margin: auto 0;
+  font-size: 30px;
+  text-align: right;
+  margin-right: 10px;
 }
-.server-list{
-    justify-content: center;
+.server-list {
+  justify-content: center;
 }
-.server-list div{
-    padding: 10px;
-    border: 1px solid rgb(71, 71, 71);
+.server-list div {
+  padding: 10px;
+  border: 1px solid rgb(71, 71, 71);
 }
