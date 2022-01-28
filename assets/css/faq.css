@@ -15,3 +15,9 @@ section {
   transform: skewY(-2deg);
   z-index: -1;
 }
+.faq {
+  background-image: url("../img/tank.png");
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+}
