@@ -1,0 +1,26 @@
+.card-transparent{
+    background-color: inherit;
+    border: inherit;
+}
+.card-title,
+.card-text{
+    color: white;
+}
+.card-title{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.list-group-products li{
+    margin: 3px;
+    border: 5px solid #ffba00 !important;
+}
+.in-list-text{
+    justify-content: space-between;
+}
+.price-tag {
+    margin: auto 0;
+    font-size: 30px;
+    text-align: right;
+    margin-right: 10px;
+}
