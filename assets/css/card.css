@@ -9,7 +9,7 @@
 .card-title{
     font-size: 30px;
     font-weight: bold;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 .list-group-products li{
     margin: 3px;
@@ -23,4 +23,11 @@
     font-size: 30px;
     text-align: right;
     margin-right: 10px;
+}
+.server-list{
+    justify-content: center;
+}
+.server-list div{
+    padding: 10px;
+    border: 1px solid rgb(71, 71, 71);
 }
