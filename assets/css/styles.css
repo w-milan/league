@@ -1,4 +1,6 @@
 @import url("navigation.css");
+@import url("header.css");
+@import url("card.css");
 @import url("faq.css");
 
 @font-face {
@@ -27,4 +29,9 @@
 
 body {
   font-family: "friz_quadrataregular", Arial, Helvetica, sans-serif;
+  background-color: #2a2e32;
+}
+
+footer{
+  background-color: #2a2e32
 }

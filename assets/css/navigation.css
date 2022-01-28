@@ -13,12 +13,14 @@ a:visited{
 .discord-navigation{
     font-size: 14px;
     border-bottom: 1px solid #8080803b;
+    background-color: #1c1c1c;
 }
 .navigation-padding{
     padding: 16px;
 }
 .navigation-under-discord{
     font-weight: bold;
+    background-color: #1c1c1c;
 }
 .logo-img-navigation{
     height: 37.5px;
