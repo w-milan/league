@@ -51,15 +51,3 @@ function checkboxFunction() {
     }
   }
 
-  // circle pagination
-
-const numberButtons = document.querySelectorAll('.numbers-button');
-const numberButtonsArr = Array.from(numberButtons);
-numberButtonsArr.forEach(numberButton => {
-    numberButton.addEventListener('click', e => {
-        if(numberButton.classList.contains("button-active")){
-            console.log('test')
-        }
-      console.log(e.target);
-    });
-});
