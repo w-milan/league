@@ -28,12 +28,9 @@
   font-style: normal;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap");
-
 body {
   font-family: "friz_quadrataregular", Arial, Helvetica, sans-serif;
   background-color: #2a2e32;
-  /* font-family: "Poppins", sans-serif; */
 }
 
 .bg-w {
@@ -42,4 +39,12 @@ body {
 
 .bg-b {
   background-color: #2a2e32;
+}
+
+h2{
+  font-family: "friz_quadrataregular", sans-serif;
+}
+
+.font-poppins{
+  font-family: "Poppins", sans-serif;
 }

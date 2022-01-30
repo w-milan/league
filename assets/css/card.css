@@ -5,19 +5,17 @@
 .card-title {
   font-size: 30px;
   font-weight: bold;
-  letter-spacing: 2px;
 }
 .list-group-products li {
   margin: 3px;
-  padding: 0;
-  border: 3px solid #ffc65d !important;
+
 }
 .in-list-text {
   justify-content: space-between;
 }
 .price-tag {
   margin: auto 0;
-  font-size: 30px;
+  font-size: 24px;
   text-align: right;
   margin-right: 10px;
 }
@@ -26,6 +24,7 @@
 }
 .server-list div {
   padding: 10px;
+  margin: 2px;
   color: white;
   border: 1px solid rgb(71, 71, 71);
 }
@@ -47,9 +46,9 @@
   background-color: rgb(255, 198, 93);
 } */
 .button-active {
-  background-color: rgba(211 212 213 / 50%);
-  color: #fff;
-  box-shadow: 0 0 0 0.25rem rgb(255, 198, 93);
+  background-color: #ffffff;
+  /* color: #fff; */
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253);
 }
 
 /* .btn-check:focus + .btn-light,
