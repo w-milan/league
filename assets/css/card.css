@@ -33,6 +33,7 @@
 .numbers-button {
   border-radius: 100%;
   width: 40px;
+  background-color: rgba(211 212 213 / 50%);
 }
 .number-row {
   padding-top: 25px;
@@ -93,4 +94,8 @@
 /* checkbox */
 .input-checkbox-warranty {
   margin-right: 10px;
+}
+
+.list-group.list-group-flush.list-group-products {
+  cursor: pointer;
 }
