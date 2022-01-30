@@ -10,7 +10,7 @@
 .list-group-products li {
   margin: 3px;
   padding: 0;
-  border: 3px solid #ffba00 !important;
+  border: 3px solid #ffc65d !important;
 }
 .in-list-text {
   justify-content: space-between;
@@ -30,36 +30,50 @@
   border: 1px solid rgb(71, 71, 71);
 }
 /* Numbers*/
-.numbers-button{
+.numbers-button {
   border-radius: 100%;
   width: 40px;
 }
-.number-row{
+.number-row {
   padding-top: 25px;
   text-align: center;
 }
-.number-row .numbers-button{
+.number-row .numbers-button {
   margin: 0 10px;
 }
 /* button active */
-.button-active{
+/* .button-active{
   background-color: rgb(255, 198, 93);
+} */
+.button-active {
+  background-color: rgba(211 212 213 / 50%);
+  color: #fff;
+  box-shadow: 0 0 0 0.25rem rgb(255, 198, 93);
 }
-.checkout-card{
+
+/* .btn-check:focus + .btn-light,
+.btn-light:focus {
+  color: #000;
+  background-color: #f9fafb;
+  border-color: #f9fafb;
+  box-shadow: 0 0 0 0.25rem rgb(255, 198, 93);
+} */
+
+.checkout-card {
   margin: 0 auto;
 }
-.checkout-card ul li{
-    border: none;
+.checkout-card ul li {
+  border: none;
 }
 /* Checkout */
-.included-card-title{
+.included-card-title {
   font-weight: bold;
   font-size: 18px;
 }
-.under-included-card{
+.under-included-card {
   font-size: 12px;
 }
-.btn-checkout{
+.btn-checkout {
   border-radius: 0;
   padding: 12px 16px;
   margin-top: 5px;
@@ -67,16 +81,16 @@
   font-weight: bold;
 }
 /* image */
-.gem-image-text{
+.gem-image-text {
   position: relative;
 }
-.gem-image{
+.gem-image {
   position: absolute;
   /* left: 195px; */
   right: 30px;
   top: 25px;
 }
 /* checkbox */
-.input-checkbox-warranty{
+.input-checkbox-warranty {
   margin-right: 10px;
 }
