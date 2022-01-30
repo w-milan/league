@@ -98,3 +98,6 @@
 .list-group.list-group-flush.list-group-products {
   cursor: pointer;
 }
+.list-group-products li:hover {
+  outline: 3px solid #0d6efd;
+}
