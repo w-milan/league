@@ -41,10 +41,14 @@ body {
   background-color: #2a2e32;
 }
 
-h2{
+h2 {
   font-family: "friz_quadrataregular", sans-serif;
 }
 
-.font-poppins{
+.font-poppins {
   font-family: "Poppins", sans-serif;
+}
+
+.active {
+  /* color: #0d6efd !important; */
 }
