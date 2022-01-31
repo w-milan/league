@@ -87,8 +87,11 @@
 .gem-image {
   position: absolute;
   /* left: 195px; */
-  right: 30px;
-  top: 25px;
+  right: 65px;
+  top: -15px;
+}
+.gem-image img{
+  width: 120px;
 }
 /* checkbox */
 .input-checkbox-warranty {
