@@ -8,7 +8,6 @@
 }
 .list-group-products li {
   margin: 3px;
-
 }
 .in-list-text {
   justify-content: space-between;
@@ -26,7 +25,7 @@
   padding: 10px;
   margin: 2px;
   color: white;
-  border: 1px solid rgb(71, 71, 71);
+  /* border: 1px solid rgb(71, 71, 71); */
 }
 /* Numbers*/
 .numbers-button {
@@ -90,7 +89,7 @@
   right: 65px;
   top: -15px;
 }
-.gem-image img{
+.gem-image img {
   width: 120px;
 }
 /* checkbox */
@@ -103,4 +102,14 @@
 }
 .list-group-products li:hover {
   outline: 3px solid #0d6efd;
+}
+.cs-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cs-item {
+  background-color: transparent;
+  padding: 0 6px;
+  border: none;
 }
