@@ -3,7 +3,7 @@ header {
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
-  height: 555px;
+  /* height: 555px; */
   display: flex;
   align-items: center;
 }
