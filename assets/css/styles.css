@@ -60,3 +60,39 @@ h2 {
   font-style: initial;
   font-size: 1.2rem;
 }
+
+/*******************************************
+RESPONSIVE
+*******************************************/
+
+/* X-Small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+  /*** Navigation ***/
+  .navbar-brand {
+    margin-right: 0;
+  }
+  /*** Header ***/
+  header {
+    height: calc(100vh - 100px) !important;
+  }
+  header .header-text {
+    /* margin-top: 100vh; */
+  }
+  header .header-title {
+    font-size: 1.6rem;
+  }
+  header .header-par {
+    font-size: 1rem;
+  }
+  .server-title {
+    font-size: 1.4rem;
+  }
+  .cs-item {
+    padding: 5px 20px;
+  }
+  .number-row {
+    display: block !important;
+  }
+  /*** FAQ ***/
+}
