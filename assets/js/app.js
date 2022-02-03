@@ -54,7 +54,7 @@ function checkboxFunction() {
 // });
 
 
-// Display kartica NUMBERS
+// Display kartica NUMBERS *******************
 
 // chooseServer
 // chooseEssence
