@@ -26,17 +26,6 @@ selectBlueEssences.forEach(selectBlueEssence => {
     });
 });
 
-
-// selectRealm.onclick = function(){
-//     chooseServer.style.display = "none"
-//     chooseEssence.style.display = "block"
-// }
-
-// selectBlueEssence.onclick = function(){
-//     chooseEssence.style.display = "none"
-//     chooseServer.style.display = "none"
-//     checkoutSection.style.display = "flex"
-// }
 // if checbox checked
 function checkboxFunction() {
     var checkBox = document.getElementById("checkbox-warranty")
@@ -53,13 +42,52 @@ function checkboxFunction() {
 
   // circle pagination
 
-const numberButtons = document.querySelectorAll('.numbers-button');
-const numberButtonsArr = Array.from(numberButtons);
-numberButtonsArr.forEach(numberButton => {
-    numberButton.addEventListener('click', e => {
-        if(numberButton.classList.contains("button-active")){
-            console.log('test')
-        }
-      console.log(e.target);
-    });
-});
+// const numberButtons = document.querySelectorAll('.numbers-button');
+// const numberButtonsArr = Array.from(numberButtons);
+// numberButtonsArr.forEach(numberButton => {
+//     numberButton.addEventListener('click', e => {
+//         if(numberButton.classList.contains("button-active")){
+//             console.log('test')
+//         }
+//       console.log(e.target);
+//     });
+// });
+
+
+// Display kartica NUMBERS
+
+// chooseServer
+// chooseEssence
+// checkoutSection
+
+numberOne = document.getElementById('number-second-1') // pozivanje iz druge sekcije broja jedan
+numberTwo = document.getElementById('number-second-2') 
+numberThree = document.getElementById('number-third-3')
+
+numberThirdSecond = document.getElementById('number-third-2') // poziva drugi broj u trecem koraku
+
+chooseEssence.style.display = "none"
+checkoutSection.style.display = "none"
+
+// number 1
+numberOne.addEventListener('click', function(){ // Ova funkcije ne radi na prvom koraku vec na drugom
+  chooseEssence.style.display = "none"
+  chooseServer.style.display = "block"
+})
+
+// number 2
+numberTwo.addEventListener('click', function(){
+  chooseServer.style.display = "none"
+  chooseEssence.style.display = "flex"
+})
+
+// number 3 and number 2 in third section
+numberThree.addEventListener('click', function(){
+  chooseEssence.style.display = "none"
+  checkoutSection.style.display = "flex"
+})
+
+numberThirdSecond.addEventListener('click', function(){ // iskljucivo radi u koraku 3 za redni broj 2
+  chooseEssence.style.display = "block"
+  checkoutSection.style.display = "none"
+})

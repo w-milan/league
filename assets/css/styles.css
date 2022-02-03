@@ -75,7 +75,10 @@ RESPONSIVE
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
-  
+  /* Review Container */
+  .review-container{
+    max-width: 100%;
+  }
   /* TOS */
   .tos-header{
     height: 100%;
